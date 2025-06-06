@@ -1,4 +1,4 @@
-module github.com/go-ldap/ldif
+module github.com/tacerus/ldif
 
 go 1.14
 
