@@ -1,4 +1,4 @@
-module github.com/tacerus/ldif
+module github.com/tacerus/go-ldif
 
 go 1.14
 
