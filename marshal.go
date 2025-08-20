@@ -151,6 +151,11 @@ func encodeValue(value string) (string, bool) {
 			required = true
 			break
 		}
+
+		if len(value) != len(strings.TrimRight(value, " ")) {
+			required = true
+			break
+		}
 	}
 	if !required {
 		return value, false
